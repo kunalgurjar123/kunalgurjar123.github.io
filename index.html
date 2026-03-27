@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>₹10 Goodluck</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #222;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .box {
+            background: #333;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            background: orange;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: darkorange;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+    <h1>₹10 Goodluck Website 🍀</h1>
+    <p>Pay ₹10 and try your luck!</p>
+
+    <button onclick="payNow()">Pay Now</button>
+</div>
+
+<script>
+    function payNow() {
+        // simple dynamic navigation
+        window.location.href = "qr.html";
+    }
+</script>
+
+</body>
+</html>
