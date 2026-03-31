@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    background: skyblue;
+    display: block;
+}
+
+#controls {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+
+#controls button {
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 5px;
+}
