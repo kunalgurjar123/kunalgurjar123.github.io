@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial;
+}
+
+#ui {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    color: white;
+    font-size: 20px;
+    z-index: 10;
+}
+
+canvas {
+    display: block;
+    background: skyblue;
+}
+
+/* Mobile Buttons */
+#controls {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#controls button {
+    font-size: 25px;
+    margin: 5px;
+    padding: 10px 15px;
+}
